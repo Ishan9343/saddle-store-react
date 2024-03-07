@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/saddle-store-react/static/css/main.f8b3e9d1.css",
+    "main.js": "/saddle-store-react/static/js/main.0a118a97.js",
+    "static/js/592.7f72a991.chunk.js": "/saddle-store-react/static/js/592.7f72a991.chunk.js",
+    "static/media/c1.jpg": "/saddle-store-react/static/media/c1.29723573f68c6f0907a6.jpg",
+    "static/media/c3.jpg": "/saddle-store-react/static/media/c3.a6a97963b1d1766fdb53.jpg",
+    "static/media/c2.jpg": "/saddle-store-react/static/media/c2.6e5df9935c8c7473e619.jpg",
+    "static/media/horse.jpg": "/saddle-store-react/static/media/horse.4b410392f4c68cbae014.jpg",
+    "static/media/c4.jpg": "/saddle-store-react/static/media/c4.2d23e84204bcdd85631a.jpg",
+    "static/media/c5.jpg": "/saddle-store-react/static/media/c5.c7e16b5622ec05a4713b.jpg",
+    "static/media/enqlogo.jpg": "/saddle-store-react/static/media/enqlogo.b1c471231f6fd97e9db9.jpg",
+    "static/media/insta_logo.jpg": "/saddle-store-react/static/media/insta_logo.fe96f893561327c6dc68.jpg",
+    "static/media/logo.svg": "/saddle-store-react/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/saddle-store-react/index.html",
+    "main.f8b3e9d1.css.map": "/saddle-store-react/static/css/main.f8b3e9d1.css.map",
+    "main.0a118a97.js.map": "/saddle-store-react/static/js/main.0a118a97.js.map",
+    "592.7f72a991.chunk.js.map": "/saddle-store-react/static/js/592.7f72a991.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f8b3e9d1.css",
+    "static/js/main.0a118a97.js"
+  ]
+}
