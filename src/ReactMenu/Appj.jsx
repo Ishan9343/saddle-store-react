@@ -34,6 +34,7 @@ const Appj=()=>{
        
         <Navbar  onFilterChange={handleFilterChange}/>
         <Routes>
+        
             <Route exact path="/" Component={Home}/>
             <Route exact path="/product" element={<Product filterValue={filterValue} />} />
             
