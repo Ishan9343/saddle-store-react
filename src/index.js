@@ -9,7 +9,7 @@ import Navbar from './ReactMenu/navbar'
 import { BrowserRouter } from "react-router-dom";
 
 ReactDOM.render(
-  <BrowserRouter >
+  <BrowserRouter basename="/saddle-store-react">
     
     <Appj></Appj>
   </BrowserRouter>,
