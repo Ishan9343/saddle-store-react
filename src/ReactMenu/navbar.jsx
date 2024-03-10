@@ -26,7 +26,7 @@ const Navbar = ({ onFilterChange }) => {
         </a>
         <a className=" navbar-brand" href="#">
           <h3
-            style={{ fontFamily: "serif", marginTop: "5px",marginRight:"1rem",marginLeft:"7px" }}
+            style={{ fontFamily: "serif", marginTop: "5px",marginRight:"1rem",marginLeft:"4px" }}
             className="text-white"
           >
             Your Saddlery.com

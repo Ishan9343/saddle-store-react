@@ -15,8 +15,8 @@ const About = () => {
         </h2>
         <div class="container-fluid text-center">
           <div class="mt-2 row">
-            <div class="col">
-              <img className="img-fluid" style={{ height: "14rem", width: "22rem" }} src={c1}></img>
+            <div class="col-md">
+              <img className="img-fluid img-thumbnail" style={{height:"16rem"}} src={c1}></img>
               <p className="mt-2">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
                 asperiores pariatur tempora eum unde fuga reiciendis ab
@@ -26,8 +26,8 @@ const About = () => {
                 quaerat, provident nulla vel obcaecati odit. Sint, nobis?
               </p>
             </div>
-            <div class="col">
-              <img className="img-fluid" style={{ height: "14rem", width: "22rem" }} src={c2}></img>
+            <div class="col-md">
+              <img className="img-fluid img-thumbnail" style={{height:"16rem"}} src={c2}></img>
               <p className="mt-2">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
                 asperiores pariatur tempora eum unde fuga reiciendis ab
