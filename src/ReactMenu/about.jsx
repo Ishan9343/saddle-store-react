@@ -13,7 +13,7 @@ const About = () => {
             <b>A</b>bout <b>U</b>s
           </small>
         </h2>
-        <div class="container text-center">
+        <div class="container-fluid text-center">
           <div class="mt-2 row">
             <div class="col">
               <img style={{ height: "14rem", width: "22rem" }} src={c1}></img>
