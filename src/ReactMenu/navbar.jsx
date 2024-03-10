@@ -46,7 +46,7 @@ const Navbar = ({ onFilterChange }) => {
           <div class=" p-1 collapse navbar-collapse" id="navbarNav">
             <ul class="mx-4  navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="/">
+                <a class="nav-link active" aria-current="page" href="/saddle-store-react">
                   Home
                 </a>
               </li>
