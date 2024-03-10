@@ -16,7 +16,7 @@ const About = () => {
         <div class="container-fluid text-center">
           <div class="mt-2 row">
             <div class="col">
-              <img style={{ height: "14rem", width: "22rem" }} src={c1}></img>
+              <img className="img-fluid" style={{ height: "14rem", width: "22rem" }} src={c1}></img>
               <p className="mt-2">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
                 asperiores pariatur tempora eum unde fuga reiciendis ab
@@ -27,7 +27,7 @@ const About = () => {
               </p>
             </div>
             <div class="col">
-              <img style={{ height: "14rem", width: "22rem" }} src={c2}></img>
+              <img className="img-fluid" style={{ height: "14rem", width: "22rem" }} src={c2}></img>
               <p className="mt-2">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
                 asperiores pariatur tempora eum unde fuga reiciendis ab
