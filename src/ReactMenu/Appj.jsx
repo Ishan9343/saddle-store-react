@@ -35,7 +35,7 @@ const Appj=()=>{
         <Navbar  onFilterChange={handleFilterChange}/>
         <Routes>
         
-            <Route exact path="/saddle-store-react" Component={Home}/>
+            <Route exact path="/" Component={Home}/>
             <Route exact path="/product" element={<Product filterValue={filterValue} />} />
             
             <Route exact path="/about" component={About}/>
