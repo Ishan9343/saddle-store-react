@@ -65,14 +65,14 @@ const Navbar = ({ onFilterChange }) => {
               <div className="dropdown-menu" aria-labelledby="navbarDropdown">
                 <Link
                   className="dropdown-item "
-                  to="/product"
-                  onClick={() => filterResult("Horse Tack")}
+                  to="./product"
+                  onClick={() => filterResult("Horse Leashes and Ropes")}
                 >
-                  Horse Tack
+                  Leashes & Ropes
                 </Link>
                 <Link
                   className="dropdown-item"
-                  to="/product"
+                  to="./product"
                   onClick={() => filterResult("Horse Wear")}
                 >
                   Horse Wear
@@ -84,28 +84,28 @@ const Navbar = ({ onFilterChange }) => {
                 >
                   Horse Rider
                 </Link>
-                <a
+                <Link
                   className="dropdown-item"
                   href="/product"
                   onClick={() => filterResult("Horse Halter")}
                 >
                   Horse Halter
-                </a>
-                <a
+                </Link>
+                <Link
                   className="dropdown-item"
                   href="/product"
                   onClick={() => filterResult("Horse Accessories")}
                 >
                   Horse Accessories
-                </a>
+                </Link>
                 <div className="dropdown-divider"></div>
-                <a
+                <Link
                   className="dropdown-item"
                   href="/product"
                   onClick={() => filterResult("Dog Accessories")}
                 >
                   Dog Accessories
-                </a>
+                </Link>
               </div>
             </li>
             <li className="nav-item">
