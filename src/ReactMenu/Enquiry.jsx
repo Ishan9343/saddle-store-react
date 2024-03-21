@@ -28,7 +28,7 @@ const Enquiry = () => {
   };
 
   return (
-    <form ref={form} onSubmit={sendEmail} id="enquiry">
+    <form className="m-5 bg" ref={form} onSubmit={sendEmail} id="enquiry">
       <hr />
       <div className="container-fluid my-3">
         
@@ -46,7 +46,7 @@ const Enquiry = () => {
         <input
           type="name"
           name="Customer_name"
-          className="form-control"
+          className="form-control border-5"
           id="user_name"
         />
       </div>
@@ -57,7 +57,7 @@ const Enquiry = () => {
         <input
           type="email"
           name="Customer_email"
-          className="form-control"
+          className="form-control border-5"
           id="user_email"
         />
       </div>
@@ -69,7 +69,7 @@ const Enquiry = () => {
         <input
           type="text"
           name="Requirement"
-          className="form-control"
+          className="form-control border-5"
           id="user_requirement"
         />
       </div>

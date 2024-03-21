@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Navbar from "./navbar";
+import { Link } from "react-router-dom";
 
 import Categories from "../productData/productPage";
 const Product = ({ filterValue }) => {
@@ -35,13 +36,13 @@ const Product = ({ filterValue }) => {
                     <p style={{ fontSize: "15px" }} className="mb-2 card-text">
                       {dis}
                     </p>
-                    <a
+                    <Link
                       className="btn text-white bg-primary"
                       aria-current="page"
-                      href="./#enquiry"
+                      to="/enquiry"
                     >
                       Enquiry
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>

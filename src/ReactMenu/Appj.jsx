@@ -27,6 +27,7 @@ const Appj = () => {
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route exact path="/product" element={<Product filterValue={filterValue} />} />
+        
         <Route exact path="/about" element={<About />} />
         <Route exact path="/enquiry" element={<Enquiry />} />
         <Route exact path="/contact" element={<Contact />} />
