@@ -27,7 +27,7 @@ const Product = ({ filterValue }) => {
                      
                       {dis}
                     </p>
-                    <a href="./#enquiry" className="btn btn-primary">
+                    <a href="/saddle-store-react/#enquiry" className="btn btn-primary">
                       Enquiry
                     </a>
                   </div>
