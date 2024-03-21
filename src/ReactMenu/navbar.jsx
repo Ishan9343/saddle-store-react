@@ -122,7 +122,7 @@ const Navbar = ({ onFilterChange }) => {
               <a
                 className="text-white nav-link active"
                 aria-current="page"
-                href="/#enquiry"
+                href="./#enquiry"
               >
                 Enquiry
               </a>
