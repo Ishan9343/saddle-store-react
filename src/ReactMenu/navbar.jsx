@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import "../styling/styling.css";
 const Navbar = ({ onFilterChange }) => {
   const filterResult = (selectedType) => {
+    
     onFilterChange(selectedType);
   };
 
@@ -79,21 +80,21 @@ const Navbar = ({ onFilterChange }) => {
                 </Link>
                 <Link
                   className="dropdown-item"
-                  to="/product"
+                  to="./product"
                   onClick={() => filterResult("Horse Rider")}
                 >
                   Horse Rider
                 </Link>
                 <Link
                   className="dropdown-item"
-                  href="/product"
+                  to="/product"
                   onClick={() => filterResult("Horse Halter")}
                 >
                   Horse Halter
                 </Link>
                 <Link
                   className="dropdown-item"
-                  href="/product"
+                  to="./product"
                   onClick={() => filterResult("Horse Accessories")}
                 >
                   Horse Accessories
@@ -101,7 +102,7 @@ const Navbar = ({ onFilterChange }) => {
                 <div className="dropdown-divider"></div>
                 <Link
                   className="dropdown-item"
-                  href="/product"
+                  to="./product"
                   onClick={() => filterResult("Dog Accessories")}
                 >
                   Dog Accessories
