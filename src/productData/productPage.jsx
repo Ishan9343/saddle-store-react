@@ -187,17 +187,17 @@ const Categories=[
 },{
   id:36,
   title:"Horse Leash ",
-  image:"images/HorseLeash3.webp",
+  image:"images/HorseLeash3.jpg",
   type:"Horse Leashes and Ropes"
 },{
   id:37,
-  title:"Horse Leash ",
-  image:"images/HorseLeash4.webp",
+  title:"Horse Leash",
+  image:"images/HorshLeash_4.jpg",
   type:"Horse Leashes and Ropes"
 },{
   id:38,
-  title:"Rainbow Horse Halter And Leash ",
-  image:"images/HorseLeash5.jpeg",
+  title:"Rainbow Type ",
+  image:"images/HorseLeash5.jpg",
   type:"Horse Leashes and Ropes"
 },{
   id:39,
